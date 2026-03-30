@@ -21,7 +21,7 @@ public class Borrower extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setContentPane(mainpanel);
-        
+        setVisible(true);
 
 
         CALCULATEButton.addActionListener(new ActionListener() {
